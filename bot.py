@@ -1,7 +1,7 @@
 import logging
 import logging.config
 
-# Get logging configurations
+# Get logging configuration
 logging.config.fileConfig('logging.conf')
 logging.getLogger().setLevel(logging.INFO)
 logging.getLogger("pyrogram").setLevel(logging.ERROR)
